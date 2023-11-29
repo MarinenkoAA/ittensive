@@ -11,6 +11,7 @@ https://video.ittensive.com/python-advanced/data-5283-2019-10-04.utf.csv
 Примечание: найдите среднее значение вызовов, без учета года
 
 **Решение:** Данная задача решается при помощи библиотек Python: Pandas (для импорта и преобразования для расчетов файла CSV из условия задачи) и Numpy, а именно функцией Mean()
+
 Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project1.py
 
 **Project 2:**
@@ -26,6 +27,7 @@ https://video.ittensive.com/python-advanced/data-5283-2019-10-04.utf.csv
 Найдите значение поля UnemployedMen в том месяце, когда было меньше всего вызовов в Центральном административном округе.
 
 **Решение:** Данная задача решается объединением двух групп данных и объединением встроенной функцией Pandas - merge
+
 Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project2.py
 
 **Project 3:**
@@ -37,6 +39,7 @@ https://video.ittensive.com/python-advanced/data-9753-2019-07-25.utf.csv
 Найдите, с какого года процент людей с ограниченными возможностями (UnemployedDisabled) среди всех безработных (UnemployedTotal) стал меньше 2%.
 
 **Решение:** Данная задача решается созданием нового столбца "dole", в котором мы указываем соотношение безработных с ограниченными возможностями (UnemployedDisabled) к всем безработным (UnemployedTotal), выделением значений из таблицы, когда процент людей с ограниченными возможностями (UnemployedDisabled) будет меньше 2% и выводом первого значения из таблицы
+
 Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project3.py
 
 **Project 4:**
@@ -50,6 +53,7 @@ video.ittensive.com/python-advanced/data-9753-2019-07-25.utf.csv
 Ответ округлите до сотых. Например, 2,32
 
 **Решение:** Данная задача решается с применением библиотеки slearn, а именно LinearRegression, но для применения Линейной регрессии в задаче производили обработку данных из файла SCV
+
 Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/project4.py
 
 **Project 5:**
@@ -63,6 +67,7 @@ tech.yandex.ru/maps/geocoder/doc/desc/concepts/input_params-docpage/
 Внимание: активация ключа Геокодера Яндекса может занимать несколько часов (до суток).
 
 **Решение:** В данной задаче мы применяли библиотеки Request и Json для взаимодействия с Json в Python
+
 Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project5.py
 
 **Project 6:**
@@ -74,6 +79,7 @@ mfd.ru/marketdata/?id=5&group=16&mode=3&sortHeader=name&sortOrder=1&selectedDate
 и найдите, по какому тикеру был максимальный рост числа сделок (в процентах) за 1 ноября 2019 года.
 
 **Решение:** В данной задаче производили парсинг сайта при помощи библиотеки BeautifulSoup, поиск нужных классов и параметров для нахождения нужной информации на сайте
+
 Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project6.py
 
 **Project 7:**
@@ -84,6 +90,7 @@ mfd.ru/marketdata/?id=5&group=16&mode=3&sortHeader=name&sortOrder=1&selectedDate
 video.ittensive.com/data/018-python-advanced/beru.ru/
 
 **Решение:** Для данной задачи мы проводили парсинг сайта с резульатами поиска "Холодильник Саратов", искали ссылки на нужные холодильники и уже внутри каждой ссылки проводили парсинг на получение необходимых данных, которые сравнили для получения ответа на задачу
+
 Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project7.py
 
 **Project 8:**
@@ -95,6 +102,7 @@ video.ittensive.com/data/018-python-advanced/beru.ru/
 video.ittensive.com/data/018-python-advanced/beru.ru/
 
 **Решение:** В данной задаче мы производили те же операции, что и в предыдущем, но на этот раз все необходимые данные мы выгружали в SQL при помощи библиотеки sqlite3
+
 Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project8.py
 
 **Project 9:**
@@ -109,6 +117,8 @@ https://video.ittensive.com/python-advanced/data-9722-2019-10-14.utf.csv
 
 **Решение:** В данной задаче мы применяли библиотеку Matplotlib для вывода круговых диаграмм по количества школьников, написавших ЕГЭ на 220 баллов и выше как по всем административным округам москвы, так и отдельно для районов Северо-Западного административного округа
 Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project9.py
+
+
 <img src="https://github.com/MarinenkoAA/ittensive/blob/main/Project%209%20graphs.png" />
 
 **Project 10:**
@@ -124,6 +134,11 @@ https://video.ittensive.com/python-advanced/marathon-data.csv
 
 **Решение:** В данной задаче мы применяли библиотеки seaborn для отображения данных и scipy для нахождения Коэффициента корреляции Пирсона, при этом обработав данные в Python (перевели часы:минуты:секунды в секунды)
 
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project10.py
+
+
+<img src="https://github.com/MarinenkoAA/ittensive/blob/main/Project%2010%20graphs.png" />
+
 **Project 11:**
 
 Используя данные индекса РТС за последние годы
@@ -135,6 +150,10 @@ https://video.ittensive.com/python-advanced/rts-index.csv
 Найдите последнюю дату, когда экспоненциальное среднее максимального дневного значения (Max) в 2017 году было больше, чем соответствующее значение Close в 2019 году (это последнее пересечение графика за 2019 год и графика для среднего за 2017 год).
 
 **Решение:** В данной задаче мы применили MatplotLib для визуализации индекса РТС отдельно за 2017, 2018, 2019 года на общем графике, отобразив ось Х как "день в году", для нахождения экспоненциального среднего максимального дневного значения (Max) в 2017 году мы применили функцию .emw.mean()
+
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project11.py
+
+<img src="https://github.com/MarinenkoAA/ittensive/blob/main/Project%2011%20graphs.png" />
 
 **Project 12:**
 
@@ -152,6 +171,10 @@ https://video.ittensive.com/python-advanced/russia.json
 
 **Решение:** В данной задаче мы импортировали данные geoPandas и Json, обработали для адекватного совмещения и сложили их, при этом все несоответствия устранили функцией replace. Затем мы вывели данные GeoPandas на график и посчитали из объединенной таблицы число объектов культурного наследия в Татарстане.
 
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project12.py
+
+<img src="https://github.com/MarinenkoAA/ittensive/blob/main/Project%2012%20graphs.png" />
+
 **Project 13:**
 
 Используя данные по посещаемости библиотек в районах Москвы
@@ -166,6 +189,8 @@ https://video.ittensive.com/python-advanced/title.pdf
 как первую страницу. На второй странице выведите итоговую диаграмму, самый популярный район Москвы и число посетителей библиотек в нем.
 
 **Решение:** В данной задаче мы импортировали данные из json,  сгруппировали по районам, отобразили груковую диаграмму для 20 наиболее популярных районов Москвы по суммарной посещаемости библиотек и создали PDF отчет при помощи библиотек reportlab и PyPDF2
+
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project13.py
 
 **Project 14:**
 
@@ -184,6 +209,8 @@ https://op.mos.ru/MEDIA/showFile?id=8466da35-6801-41a9-a71e-04b60408accb
 
 **Решение:** В данной задаче мызагрузили CSV файл в Pandas таблицу из html кода сформировали PDF документ (используя wkhtmltopdf)
 
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project14.py
+
 **Project 15:**
 
 Используя данные по активностям в парках Москвы
@@ -195,6 +222,8 @@ https://video.ittensive.com/python-advanced/data-107235-2019-12-02.utf.json
 2. Таблицу активностей по всем паркам в виде Активность-Расписание-Парк
 
 **Решение:** В данной задаче мы импортировали данные Json, а именно "CourseName","CoursesTimetable", "NameOfPark", отобразили круговую диаграмму и создали PDF отчет (используя wkhtmltopdf)
+
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project15.py
 
 **Project 16:**
 
@@ -211,5 +240,7 @@ https://video.ittensive.com/python-advanced/data-9722-2019-10-14.utf.csv
 Дополнительно: приложите к отчету PDF документ того же содержания (дублирующий письмо).
 
 **Решение:** В данной задаче мы сформировали график по количеству учеников, получивших более 220 баллов по ЕГЭ в Москве по округам Москвы, импортировали в PDF отчет (используя wkhtmltopdf) и направили его по почте согласно задания. 
+
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project16.py
 
 
