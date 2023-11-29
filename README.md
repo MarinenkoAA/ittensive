@@ -11,6 +11,7 @@ https://video.ittensive.com/python-advanced/data-5283-2019-10-04.utf.csv
 Примечание: найдите среднее значение вызовов, без учета года
 
 **Решение:** Данная задача решается при помощи библиотек Python: Pandas (для импорта и преобразования для расчетов файла CSV из условия задачи) и Numpy, а именно функцией Mean()
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project1.py
 
 **Project 2:**
 
@@ -25,6 +26,7 @@ https://video.ittensive.com/python-advanced/data-5283-2019-10-04.utf.csv
 Найдите значение поля UnemployedMen в том месяце, когда было меньше всего вызовов в Центральном административном округе.
 
 **Решение:** Данная задача решается объединением двух групп данных и объединением встроенной функцией Pandas - merge
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project2.py
 
 **Project 3:**
 
@@ -35,6 +37,7 @@ https://video.ittensive.com/python-advanced/data-9753-2019-07-25.utf.csv
 Найдите, с какого года процент людей с ограниченными возможностями (UnemployedDisabled) среди всех безработных (UnemployedTotal) стал меньше 2%.
 
 **Решение:** Данная задача решается созданием нового столбца "dole", в котором мы указываем соотношение безработных с ограниченными возможностями (UnemployedDisabled) к всем безработным (UnemployedTotal), выделением значений из таблицы, когда процент людей с ограниченными возможностями (UnemployedDisabled) будет меньше 2% и выводом первого значения из таблицы
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project3.py
 
 **Project 4:**
 
@@ -47,6 +50,7 @@ video.ittensive.com/python-advanced/data-9753-2019-07-25.utf.csv
 Ответ округлите до сотых. Например, 2,32
 
 **Решение:** Данная задача решается с применением библиотеки slearn, а именно LinearRegression, но для применения Линейной регрессии в задаче производили обработку данных из файла SCV
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/project4.py
 
 **Project 5:**
 
@@ -59,6 +63,7 @@ tech.yandex.ru/maps/geocoder/doc/desc/concepts/input_params-docpage/
 Внимание: активация ключа Геокодера Яндекса может занимать несколько часов (до суток).
 
 **Решение:** В данной задаче мы применяли библиотеки Request и Json для взаимодействия с Json в Python
+Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project5.py
 
 **Project 6:**
 
@@ -69,6 +74,7 @@ mfd.ru/marketdata/?id=5&group=16&mode=3&sortHeader=name&sortOrder=1&selectedDate
 и найдите, по какому тикеру был максимальный рост числа сделок (в процентах) за 1 ноября 2019 года.
 
 **Решение:** В данной задаче производили парсинг сайта при помощи библиотеки BeautifulSoup, поиск нужных классов и параметров для нахождения нужной информации на сайте
+Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project6.py
 
 **Project 7:**
 
@@ -78,6 +84,7 @@ mfd.ru/marketdata/?id=5&group=16&mode=3&sortHeader=name&sortOrder=1&selectedDate
 video.ittensive.com/data/018-python-advanced/beru.ru/
 
 **Решение:** Для данной задачи мы проводили парсинг сайта с резульатами поиска "Холодильник Саратов", искали ссылки на нужные холодильники и уже внутри каждой ссылки проводили парсинг на получение необходимых данных, которые сравнили для получения ответа на задачу
+Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project7.py
 
 **Project 8:**
 
@@ -88,6 +95,7 @@ video.ittensive.com/data/018-python-advanced/beru.ru/
 video.ittensive.com/data/018-python-advanced/beru.ru/
 
 **Решение:** В данной задаче мы производили те же операции, что и в предыдущем, но на этот раз все необходимые данные мы выгружали в SQL при помощи библиотеки sqlite3
+Код решения:  https://github.com/MarinenkoAA/ittensive/blob/main/Project8.py
 
 **Project 9:**
 
@@ -100,6 +108,8 @@ https://video.ittensive.com/python-advanced/data-9722-2019-10-14.utf.csv
 Выберите тип диаграммы и постройте ее для районов Северо-Западного административного округа Москвы для количества школьников, написавших ЕГЭ на 220 баллов и выше.
 
 **Решение:** В данной задаче мы применяли библиотеку Matplotlib для вывода круговых диаграмм по количества школьников, написавших ЕГЭ на 220 баллов и выше как по всем административным округам москвы, так и отдельно для районов Северо-Западного административного округа
+Код решения: https://github.com/MarinenkoAA/ittensive/blob/main/Project9.py
+<img src="https://github.com/MarinenkoAA/ittensive/blob/main/Project%209%20graphs.png" />
 
 **Project 10:**
 
